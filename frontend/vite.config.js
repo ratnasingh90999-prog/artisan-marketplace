@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://artisan-marketplace-63o8.onrender.com/api',
         changeOrigin: true,
       },
     },
